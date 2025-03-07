@@ -1,18 +1,27 @@
 <html>
-  <head> 
+  <head>
     <meta charset="utf-8">
+    <link href="../style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body> 
-    <h1>Đóng góp ý kiến cho thư viện của nhà trường</h1>
-    <form>
+  <body>
+    <h1>thông tin người góp ý</h1>
+    <form action="Bai7-NV3.html">
+      
       <ol>
-        <li>
-          <b>1.Thông tin về người đóng góp ý kiến </b>
+        <li> <b>Thông tin người góp ý</b>
+          <label>Họ và Tên:<input type ="text" name="txtTen"></label>
+          <label>Địa chỉ email:<input type ="text" name="txtTen"></label>
         </li>
-        <li>Họ và tên: </li>
-        <li>Địa chỉ email: </li>
-          <b>2.Đóng góp ý kiến </b>
-        
+        <li> <b> Đóng góp ý kiến</b>
+          <label>ý kiến:<textarea name ="txtComment" row="6" cols="40"></textarea></label>
+          <input type="checkbox"name="chkTruyenNgan">Truyện ngắn<br>
+          <input type="checkbox"name="chkKiNang">Kĩ năng sống<br>
+          <input type="checkbox"name="chkCNTT">Công nghệ thông tin<br>
+          <input type="checkbox"name="chkTruyenTranh">Truyện tranh<br>
+          <input type="checkbox"name="chkLichSu">Lịch sử<br>
+
+            <input type="submit"name="cmd" value="góp ý">
+        </li>
       </ol>
     </form>
   </body>
