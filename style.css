@@ -3,7 +3,7 @@ html {
   width: 100%;
 }
 .phandau{color: purple;background-color:black;text-align:center;padding:20px}
-.thucdon{float:left;color:black;background-color:purple;text-align:center;padding:}
-.thucdon a{display:block;color:black;background-color:purple;text-align:center}
-.thucdon a:hover{color:purple;background-color:black;text-align:center}
-.noidung{color:purple;background-color:yellow}
+.thucdon{float:left;color:white;background-color:purple;text-align:center;padding:5px;}
+.thucdon a{color:black;background-color:pink;}
+.thucdon a:hover{color:white;background-color:purple;text-align:center}
+.noidung{color:purple;background-color:yellow;}
