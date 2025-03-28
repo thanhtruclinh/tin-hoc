@@ -10,7 +10,7 @@ function login()
 
   {
 
-    window.open("trangchu.html")
+    window.open("thanhtruc.html")
 
     document.getElementById(compiler).style.display="block"
 
